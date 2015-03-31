@@ -12,26 +12,17 @@
   src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
 }
 
-.top {
-  margin: 0;
-  padding: 50px;
-}
-
-.top li {
+/*.top li {
   display: inline;
-}
+}*/
 
 .top a {
   text-decoration: none;
-  background: #fff;
-  padding: 59px;
-  color: #543452;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .top a:hover {
-  background: #aaa;
   color: #8A0E05;
 }
 
@@ -70,7 +61,7 @@
   background-position: center center;
   background-size: 100%;
   background-repeat: no-repeat;
-  margin-top: 0;
+  margin-top: 200px;
   height: 500px;
 }
 
