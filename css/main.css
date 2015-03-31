@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: normal;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: bold;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
+}
+
+.top {
+  margin: 0;
+  padding: 50px;
+}
+
+.top li {
+  display: inline;
+}
+
+.top a {
+  text-decoration: none;
+  background: #fff;
+  padding: 59px;
+  color: #543452;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.top a:hover {
+  background: #aaa;
+  color: #8A0E05;
+}
+
+.side {
+  margin-top: 10px;
+}
+
+.side li {
+  padding-bottom: 10px;
+}
+
+.side a {
+  text-decoration: none;
+  background: white;
+  font-size: 1.5em;
+  color: #543452;
+}
+
+.side a:hover {
+  background: #aaa;
+  color: #8A0E05;
+}
+
+.main {
+  margin-top: 100px;
+}
+
+.jumbotron {
+  background-image: url("../jumbo.jpg");
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  height: 500px;
+}
+
+.jumbotron h1 {
+  color: white;
+  font-family: 'Shift', sans-serif;
+  font-size: 5em;
+  padding-top: 100px;
+}
