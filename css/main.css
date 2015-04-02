@@ -12,23 +12,26 @@
   src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
 }
 
-/*.top li {
-  display: inline;
-}*/
-
-.top a {
-  text-decoration: none;
-  font-weight: bold;
-  text-transform: uppercase;
+/** {
+  border: 1px dashed #70EBF4;
+}
+*/
+.brand:hover {
+  color: black;
+  text-decoration: underline;
 }
 
-.top a:hover {
-  color: #8A0E05;
+.brand img {
+  max-height: 20px;
+  margin-right: 10px;
 }
 
-.side {
-  left: -100;
+.nav li:hover {
+  text-decoration: underline;
+  padding: 0;
+  margin: 0;
 }
+
 
 .side ul {
   list-style-type: none;
@@ -39,17 +42,70 @@
   padding-bottom: 20px;
 }
 
+/*.side li:hover {
+  background: green;
+}
+*/
+
+/*.container-fluid * {
+  border: 3px dashed red;
+}
+
+.row-fluid * {
+  border: 3px dashed orange;
+}*/
+
+.span2 * {
+/*  border: 3px dashed yellow;*/
+  padding: 0;
+}
+
+.side {
+/*  border: 3px dashed green;*/
+  padding-bottom: 10px;
+}
+/*
+.side * {
+  border: 3px dashed blue;
+}
+
+.side .container {
+  border: 3px dashed purple;
+}*/
+
+.side ul {
+/*  border: 3px dashed violet;*/
+  margin: 0; 
+}
+
 .side a {
-  text-decoration: none;
-  background: white;
-  padding: 5px 50px 5px 50px;
-  font-size: 2em;
   color: #543452;
+  padding: 10px 10px;
+  font-size: 2em;
+  text-decoration: none;
 }
 
 .side a:hover {
   background: #aaa;
   color: #8A0E05;
+}
+
+/*
+
+.side a {
+
+  background: white;
+  padding: 5px 50px 5px 50px;
+  font-size: 2em;
+  
+}*/
+
+/*.side a:hover {
+
+}*/
+
+.cotainer-fluid {
+  background: #C4B7B7;
 }
 
 .main {
@@ -71,3 +127,5 @@
   font-size: 5em;
   padding-top: 100px;
 }
+
+
