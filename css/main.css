@@ -12,10 +12,10 @@
   src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
 }
 
-/** {
+* {
   border: 1px dashed #70EBF4;
 }
-*/
+
 .brand:hover {
   color: black;
   text-decoration: underline;
