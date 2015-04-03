@@ -1,17 +1,25 @@
+.top .navbar-brand:hover, .top li:hover, .side a:hover {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #d5d5d5;
+  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  -ms-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  -o-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125); }
+
 body {
   font-family: Courier, sans-serif; }
 
-.top .brand {
-  font-weight: bold; }
-  .top .brand img {
-    margin-right: 10px;
-    max-height: 20px; }
-.top .brand:hover {
-  color: black; }
-.top li :hover {
-  font-weight: bold;
-  margin: 0;
-  padding: 0; }
+.top {
+  text-decoration: none; }
+  .top .navbar-brand {
+    display: inline;
+    font-weight: bold; }
+    .top .navbar-brand img {
+      margin-right: 10px;
+      max-height: 20px; }
 
 .jumbotron {
   background-image: url("../img/jumbo.jpg");
@@ -28,24 +36,20 @@ body {
 .main {
   margin-top: 100px; }
 
-.span2 * {
-  padding: 0; }
-
 .side {
+  padding: 0;
   padding-bottom: 10px; }
   .side ul {
     list-style-type: none;
     margin: 0; }
   .side li {
+    font-size: 1.25em;
     padding-bottom: 20px;
     padding-top: 10px; }
   .side a {
+    font-size: 1.5em;
     color: gray;
-    font-size: 2em;
     padding: 10px;
     text-decoration: none; }
-  .side a:hover {
-    color: black;
-    font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */

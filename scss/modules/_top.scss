@@ -1,6 +1,8 @@
 .top {
-  
-  .brand {
+  text-decoration: none;
+
+  .navbar-brand {
+    display: inline;
     font-weight: bold;
   
     img {
@@ -9,18 +11,11 @@
     }
   }
 
-  .brand:hover {
-    color: black;
+  .navbar-brand:hover {
+    @extend %hover;
   }
 
-  li {
-    :hover {
-      font-weight: bold;
-      margin: 0;
-      padding: 0;
-    }
+  li:hover {
+    @extend %hover;
   }
-
 }
-
-

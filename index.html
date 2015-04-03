@@ -7,7 +7,30 @@
     <title>My First Webpage</title>
   </head>
   <body>
-    <div class="navbar navbar-fixed-top top">
+  <nav class="navbar navbar-default top">
+    <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle=" collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="img/rastaklein.png" />DEINE  MUDDA</a>
+      </div>
+  
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div><!-- /.container-fluid -->
+  </nav>
+    
+
+<!--     <div class="navbar navbar-fixed-top top">
       <div class="navbar-inner">
         <div class="container">
           <a href="#" class="brand"><img src="img/rastaklein.png" />DEINE MUDDA</a>
@@ -21,7 +44,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="jumbotron">
       <div class="container">
@@ -32,10 +55,11 @@
     <div class="container-fluid">  
       <div class="row-fluid main">
         <div class="span2">
-          <div class=" side navbar-inner">
+          <div class="side navbar-inner">
             <div class="sidebar-nav">
               <div class="container span12">
                 <ul>
+                  <li class="span12 nav-header">Sidebar</li>
                   <li><a class="span12" href="#">Lorem</a></li>
                   <li><a class="span12" href="#">Officiis</a></li>
                   <li><a class="span12" href="#">Eveniet</a></li>
