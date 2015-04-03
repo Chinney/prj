@@ -3,23 +3,6 @@
 @import 'base/all';
 @import 'modules/all';
 
-* {
-  border: 1px dashed #70EBF4;
-}
-
-/*.container-fluid * {
-  border: 3px dashed red;
-}
-
-.row-fluid * {
-  border: 3px dashed orange;
-}*/
-
-.span2 * {
-/*  border: 3px dashed yellow;*/
-  padding: 0;
-}
-
-.cotainer-fluid {
-  background: #C4B7B7;
-}
+// * {
+//   border: 1px dashed $color-debug;
+// }

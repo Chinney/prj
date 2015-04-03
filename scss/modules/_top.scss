@@ -1,16 +1,26 @@
+.top {
+  
+  .brand {
+    font-weight: bold;
+  
+    img {
+      margin-right: 10px;
+      max-height: 20px;
+    }
+  }
 
-.brand:hover {
-  color: black;
-  text-decoration: underline;
+  .brand:hover {
+    color: black;
+  }
+
+  li {
+    :hover {
+      font-weight: bold;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
 }
 
-.brand img {
-  max-height: 20px;
-  margin-right: 10px;
-}
 
-.nav li:hover {
-  text-decoration: underline;
-  padding: 0;
-  margin: 0;
-}
