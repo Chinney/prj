@@ -18,4 +18,8 @@
   li:hover {
     @extend %hover;
   }
+
+  .aktiv {
+    @extend %active;
+  }
 }
