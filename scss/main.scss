@@ -1,51 +1,11 @@
-@font-face {
-  font-family: 'Shift';
-  font-style: normal;
-  font-weight: normal;
-  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff");
-}
 
-@font-face {
-  font-family: 'Shift';
-  font-style: normal;
-  font-weight: bold;
-  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
-}
+@import 'helpers/all';
+@import 'base/all';
+@import 'modules/all';
 
 * {
   border: 1px dashed #70EBF4;
 }
-
-.brand:hover {
-  color: black;
-  text-decoration: underline;
-}
-
-.brand img {
-  max-height: 20px;
-  margin-right: 10px;
-}
-
-.nav li:hover {
-  text-decoration: underline;
-  padding: 0;
-  margin: 0;
-}
-
-
-.side ul {
-  list-style-type: none;
-}
-
-.side li {
-  padding-top: 10px; 
-  padding-bottom: 20px;
-}
-
-/*.side li:hover {
-  background: green;
-}
-*/
 
 /*.container-fluid * {
   border: 3px dashed red;
@@ -60,72 +20,6 @@
   padding: 0;
 }
 
-.side {
-/*  border: 3px dashed green;*/
-  padding-bottom: 10px;
-}
-/*
-.side * {
-  border: 3px dashed blue;
-}
-
-.side .container {
-  border: 3px dashed purple;
-}*/
-
-.side ul {
-/*  border: 3px dashed violet;*/
-  margin: 0; 
-}
-
-.side a {
-  color: #543452;
-  padding: 10px 10px;
-  font-size: 2em;
-  text-decoration: none;
-}
-
-.side a:hover {
-  background: #aaa;
-  color: #8A0E05;
-}
-
-/*
-
-.side a {
-
-  background: white;
-  padding: 5px 50px 5px 50px;
-  font-size: 2em;
-  
-}*/
-
-/*.side a:hover {
-
-}*/
-
 .cotainer-fluid {
   background: #C4B7B7;
 }
-
-.main {
-  margin-top: 100px;
-}
-
-.jumbotron {
-  background-image: url("../jumbo.jpg");
-  background-position: center center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  margin-top: 200px;
-  height: 500px;
-}
-
-.jumbotron h1 {
-  color: white;
-  font-family: 'Shift', sans-serif;
-  font-size: 5em;
-  padding-top: 100px;
-}
-
-

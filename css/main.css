@@ -1,15 +1,5 @@
-@font-face {
-  font-family: 'Shift';
-  font-style: normal;
-  font-weight: normal;
-  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff"); }
-@font-face {
-  font-family: 'Shift';
-  font-style: normal;
-  font-weight: bold;
-  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff"); }
-* {
-  border: 1px dashed #70EBF4; }
+body {
+  font-family: Helvetica, sans-serif; }
 
 .brand:hover {
   color: black;
@@ -24,27 +14,21 @@
   padding: 0;
   margin: 0; }
 
-.side ul {
-  list-style-type: none; }
+.jumbotron {
+  background-image: url("../jumbo.jpg");
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 200px;
+  height: 500px; }
 
-.side li {
-  padding-top: 10px;
-  padding-bottom: 20px; }
+.jumbotron h1 {
+  color: white;
+  font-size: 5em;
+  padding-top: 100px; }
 
-/*.side li:hover {
-  background: green;
-}
-*/
-/*.container-fluid * {
-  border: 3px dashed red;
-}
-
-.row-fluid * {
-  border: 3px dashed orange;
-}*/
-.span2 * {
-  /*  border: 3px dashed yellow;*/
-  padding: 0; }
+.main {
+  margin-top: 100px; }
 
 .side {
   /*  border: 3px dashed green;*/
@@ -60,7 +44,8 @@
 }*/
 .side ul {
   /*  border: 3px dashed violet;*/
-  margin: 0; }
+  margin: 0;
+  list-style-type: none; }
 
 .side a {
   color: #543452;
@@ -84,24 +69,29 @@
 /*.side a:hover {
 
 }*/
+.side li {
+  padding-top: 10px;
+  padding-bottom: 20px; }
+
+/*.side li:hover {
+  background: green;
+}
+*/
+* {
+  border: 1px dashed #70EBF4; }
+
+/*.container-fluid * {
+  border: 3px dashed red;
+}
+
+.row-fluid * {
+  border: 3px dashed orange;
+}*/
+.span2 * {
+  /*  border: 3px dashed yellow;*/
+  padding: 0; }
+
 .cotainer-fluid {
   background: #C4B7B7; }
-
-.main {
-  margin-top: 100px; }
-
-.jumbotron {
-  background-image: url("../jumbo.jpg");
-  background-position: center center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  margin-top: 200px;
-  height: 500px; }
-
-.jumbotron h1 {
-  color: white;
-  font-family: 'Shift', sans-serif;
-  font-size: 5em;
-  padding-top: 100px; }
 
 /*# sourceMappingURL=main.css.map */

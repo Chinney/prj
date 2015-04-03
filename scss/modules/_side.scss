@@ -1,0 +1,72 @@
+
+/*.container-fluid * {
+  border: 3px dashed red;
+}
+
+.row-fluid * {
+  border: 3px dashed orange;
+}*/
+
+.span2 * {
+/*  border: 3px dashed yellow;*/
+  padding: 0;
+}
+
+.cotainer-fluid {
+  background: #C4B7B7;
+}
+
+.side {
+/*  border: 3px dashed green;*/
+  padding-bottom: 10px;
+}
+/*
+.side * {
+  border: 3px dashed blue;
+}
+
+.side .container {
+  border: 3px dashed purple;
+}*/
+
+.side ul {
+/*  border: 3px dashed violet;*/
+  margin: 0;
+  list-style-type: none;
+}
+
+.side a {
+  color: #543452;
+  padding: 10px 10px;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.side a:hover {
+  background: #aaa;
+  color: #8A0E05;
+}
+
+/*
+
+.side a {
+
+  background: white;
+  padding: 5px 50px 5px 50px;
+  font-size: 2em;
+  
+}*/
+
+/*.side a:hover {
+
+}*/
+
+.side li {
+  padding-top: 10px; 
+  padding-bottom: 20px;
+}
+
+/*.side li:hover {
+  background: green;
+}
+*/
