@@ -2,39 +2,51 @@
   font-family: 'Shift';
   font-style: normal;
   font-weight: normal;
-  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff"); }
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff");
+}
+
 @font-face {
   font-family: 'Shift';
   font-style: normal;
   font-weight: bold;
-  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff"); }
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
+}
+
 * {
-  border: 1px dashed #70EBF4; }
+  border: 1px dashed #70EBF4;
+}
 
 .brand:hover {
   color: black;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 .brand img {
   max-height: 20px;
-  margin-right: 10px; }
+  margin-right: 10px;
+}
 
 .nav li:hover {
   text-decoration: underline;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
+
 
 .side ul {
-  list-style-type: none; }
+  list-style-type: none;
+}
 
 .side li {
-  padding-top: 10px;
-  padding-bottom: 20px; }
+  padding-top: 10px; 
+  padding-bottom: 20px;
+}
 
 /*.side li:hover {
   background: green;
 }
 */
+
 /*.container-fluid * {
   border: 3px dashed red;
 }
@@ -42,14 +54,16 @@
 .row-fluid * {
   border: 3px dashed orange;
 }*/
+
 .span2 * {
-  /*  border: 3px dashed yellow;*/
-  padding: 0; }
+/*  border: 3px dashed yellow;*/
+  padding: 0;
+}
 
 .side {
-  /*  border: 3px dashed green;*/
-  padding-bottom: 10px; }
-
+/*  border: 3px dashed green;*/
+  padding-bottom: 10px;
+}
 /*
 .side * {
   border: 3px dashed blue;
@@ -58,19 +72,23 @@
 .side .container {
   border: 3px dashed purple;
 }*/
+
 .side ul {
-  /*  border: 3px dashed violet;*/
-  margin: 0; }
+/*  border: 3px dashed violet;*/
+  margin: 0; 
+}
 
 .side a {
   color: #543452;
   padding: 10px 10px;
   font-size: 2em;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .side a:hover {
   background: #aaa;
-  color: #8A0E05; }
+  color: #8A0E05;
+}
 
 /*
 
@@ -81,14 +99,18 @@
   font-size: 2em;
   
 }*/
+
 /*.side a:hover {
 
 }*/
+
 .cotainer-fluid {
-  background: #C4B7B7; }
+  background: #C4B7B7;
+}
 
 .main {
-  margin-top: 100px; }
+  margin-top: 100px;
+}
 
 .jumbotron {
   background-image: url("../jumbo.jpg");
@@ -96,12 +118,14 @@
   background-size: 100%;
   background-repeat: no-repeat;
   margin-top: 200px;
-  height: 500px; }
+  height: 500px;
+}
 
 .jumbotron h1 {
   color: white;
   font-family: 'Shift', sans-serif;
   font-size: 5em;
-  padding-top: 100px; }
+  padding-top: 100px;
+}
 
-/*# sourceMappingURL=main.css.map */
+
