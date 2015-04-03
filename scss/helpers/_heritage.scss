@@ -1,0 +1,8 @@
+
+%hover {
+  color: $color-hover;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: $background-color-hover;
+  @include box-shadow(0, 0, 0, .125);
+}
