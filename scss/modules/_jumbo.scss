@@ -1,16 +1,13 @@
+#jumbo {
+  @extend %section-sizing;
+}
 
 .jumbotron {
-  background-image: url('../img/jumbo.jpg');
+  background: url("../img/jumbo.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 500px;
-  margin-top: 200px;
-
-  h1 {
-    color: white;
-    font-size: 5em;
-    padding-top: 100px;  
-  }
+  background-size: cover;
+  height: 1000px;
+  h1 {}
 }
 

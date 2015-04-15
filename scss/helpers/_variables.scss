@@ -1,6 +1,9 @@
 
 $font-body: Courier, sans-serif;
 $color-debug: #70ebf4;
-$color-hover: #000;
-$background-color-hover: #d5d5d5;
-$background-color-active: #c5c5c5;
+$color-bar: white;
+$color-hover: #66f9ff;
+$color-bar-active: #003333;
+$background-color-hover: #66f9ff;
+$background-color-active: $color-bar;
+$background-color-bar:  $color-bar-active;

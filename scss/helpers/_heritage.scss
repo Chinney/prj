@@ -3,7 +3,7 @@
   color: $color-hover;
   font-weight: bold;
   text-decoration: none;
-  background-color: $background-color-active;
+  background-color: $background-color-hover;
   @include box-shadow(0, 0, 0, .125);
 }
 
@@ -11,6 +11,19 @@
   color: $color-hover;
   font-weight: bold;
   text-decoration: none;
-  background-color: $background-color-hover;
+  background-color: $background-color-active;
   @include box-shadow(0, 0, 0, .125);
+}
+
+%top-sizing {
+  margin: 0;
+  height: 75px;
+  padding: 0;
+}
+
+%section-sizing {
+  height: auto !important;
+  min-height: 100%;
+  overflow: hidden;
+  font-size: 14px;
 }
