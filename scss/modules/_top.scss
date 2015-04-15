@@ -1,25 +1,67 @@
-.top {
-  text-decoration: none;
+
+.navbar {
+  background: $background-color-bar;
+  border: 0;
+  min-height: 75px;
+  opacity: .9;
+
+  nav {
+    min-height: 75px;
+  }
 
   .navbar-brand {
-    display: inline;
+    color: $color-bar;
+    font-size: 1.75em;
     font-weight: bold;
-  
-    img {
-      margin-right: 10px;
-      max-height: 20px;
-    }
+    min-height: 75px;
+    padding-top: 27.5px;
   }
 
   .navbar-brand:hover {
-    @extend %hover;
-  }
+      color: $color-bar;
+    }
 
-  li:hover {
-    @extend %hover;
-  }
+  .navbar-nav {
+    font-weight: bold;
+    font-size: 1.25em;
 
-  .aktiv {
-    @extend %active;
+    > li { 
+      > a {
+        color: $color-bar;
+        font-weight: bold;
+        min-height: 75px;
+        padding-top: 27.5px;
+      }
+
+      > a:focus {
+        color: $color-bar;
+        background: $background-color-bar;
+      }
+
+      > a:hover {
+        color: $color-bar-active;
+        background: $background-color-active;
+      }
+    }
+    
+    > .active {
+      > a {
+        color: $color-bar-active;
+        background: $background-color-active;
+      }
+
+      a:hover {
+        background: $background-color-active;
+      }
+    
+      a:focus {
+        color: $color-bar-active;
+        background: $background-color-active;
+      }
+    }
+    
+
+
   }
 }
+// .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
