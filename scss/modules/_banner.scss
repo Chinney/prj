@@ -1,0 +1,21 @@
+#banner {
+  @extend %section-sizing;
+  background-color: $background-color-banner;
+}
+
+.banner {
+  background: url("../img/banner.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 612px;
+  h1 {}
+}
+
+.ban-cont {
+  font-size: 3em;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  vertical-align: middle;
+  text-align: center;
+}

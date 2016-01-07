@@ -1,9 +1,20 @@
 
-$font-body: Courier, sans-serif;
+$font-body: 'Lucida Console', Monaco, monospace;
 $color-debug: #70ebf4;
 $color-bar: white;
 $color-hover: #66f9ff;
-$color-bar-active: #003333;
+$color-bar-active: black;
+$color-standard: #d0dd28;
+$color-impressum: white;
+
 $background-color-hover: #66f9ff;
 $background-color-active: $color-bar;
 $background-color-bar:  $color-bar-active;
+
+$background-color-standard: white;
+$background-color-banner: $background-color-standard;
+$background-color-erdbeeren: $background-color-standard;
+$background-color-eier: $background-color-standard;
+$background-color-schnaps: $background-color-standard;
+$background-color-laden: $background-color-standard;
+$background-color-impressum: #6C7980;
