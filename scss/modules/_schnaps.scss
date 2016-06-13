@@ -1,0 +1,21 @@
+#schnaps {
+  @extend %section-sizing;
+  background-color: $background-color-schnaps;
+}
+
+.schnaps {
+  background: url("../img/schnaps.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 612px;
+  h1 {}
+}
+
+.snp-cont {
+  font-size: 3em;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  vertical-align: middle;
+  text-align: center;
+}

@@ -1,25 +1,74 @@
-.top {
-  text-decoration: none;
+
+.navbar {
+  background: $background-color-bar;
+  border: 0;
+  min-height: 80px;
+  opacity: .5;
+
+  nav {
+    min-height: 80px;
+  }
 
   .navbar-brand {
-    display: inline;
+    color: $color-bar;
+    font-size: 1.75em;
     font-weight: bold;
-  
-    img {
-      margin-right: 10px;
-      max-height: 20px;
-    }
+    min-height: 80px;
+    padding-top: 27.5px;
   }
 
   .navbar-brand:hover {
-    @extend %hover;
+      color: $color-bar;
+    }
+
+  .navbar-nav {
+    font-weight: bold;
+    font-size: 1.5em;
+
+    > li {
+      > a {
+        color: $color-bar;
+        font-weight: bold;
+        min-height: 105px;
+        padding-top: 42.5px;
+      }
+
+      > a:focus {
+        color: $color-bar;
+        background: $background-color-bar;
+      }
+
+      > a:hover {
+        color: $color-bar-active;
+        background: $background-color-active;
+      }
+    }
+
+    > .active {
+      > a {
+        color: $color-bar-active;
+        background: $background-color-active;
+      }
+
+      a:hover {
+        background: $background-color-active;
+      }
+
+      a:focus {
+        color: $color-bar-active;
+        background: $background-color-active;
+      }
+    }
   }
 
-  li:hover {
-    @extend %hover;
+  .navbar-brand-icon {
+      height: 100px;
+      padding-left: 20px;
   }
 
-  .aktiv {
-    @extend %active;
-  }
+  // .navbar-brand-icon:hover {
+  //     background-image: url("img/lobenrot-schwarz.png");
+  // }
+
 }
+// .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus

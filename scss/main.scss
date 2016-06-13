@@ -3,6 +3,12 @@
 @import 'base/all';
 @import 'modules/all';
 
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
 // * {
 //   border: 1px dashed $color-debug;
 // }

@@ -1,0 +1,21 @@
+#laden {
+  @extend %section-sizing;
+  background-color: $background-color-laden;
+}
+
+.laden{
+  background: url("../img/karotten.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 612px;
+  h1 {}
+}
+
+.lad-cont {
+  font-size: 3em;
+  padding-top: 75px;
+  padding-bottom: 150px;
+  vertical-align: middle;
+  text-align: center;
+}
